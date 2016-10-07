@@ -246,6 +246,7 @@ a.fa {
 }
 .navbar-custom .navbar-brand {
     font-size: 26px;
+    float:none;
     letter-spacing: -0.02em;
     text-transform: none;
 }
@@ -254,6 +255,16 @@ a.fa {
 }
 .logo {
     display: none;
+}
+.tiny-logo {
+    display:inline-block;
+    background: url(../img/tiny_logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 23px;
+    z-index: 0;
+    backface-visibility: hidden;
 }
 .navbar-custom.top-nav-collapse .navbar-brand .logo {
     display: inline-block;
