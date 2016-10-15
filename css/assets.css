@@ -254,7 +254,7 @@ a.fa {
     font-size: 18px;
 }
 .logo {
-    display: none;
+    display: inline-block;
 }
 .tiny-logo {
     display:inline-block;
@@ -267,7 +267,7 @@ a.fa {
     backface-visibility: hidden;
 }
 .navbar-custom.top-nav-collapse .navbar-brand .logo {
-    display: inline-block;
+    display: none;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
